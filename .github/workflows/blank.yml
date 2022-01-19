@@ -37,6 +37,5 @@ jobs:
          
       #Run a set of command using R script
       - name: Run a hello world script
-        run: 
-          myString <- Hello world"
-          myString
+        run: ./rscript.r
+          
